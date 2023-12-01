@@ -1,13 +1,10 @@
----
-name: "\U0001F984 Feature Request"
-about: Suggest an idea for a new feature or enhancement
+name: 🦄 Feature Request
+description: Suggest an idea for a new feature or enhancement
 title: "[FEAT]: "
-labels: feature ⭐️
-assignees: HDuy-Dev
-
----
-
-- type: markdown
+labels: ["feature"]
+assignees: ["techmely"]
+body:
+  - type: markdown
     attributes:
       value: |
         Thanks for taking the time to complete this feature!
@@ -33,6 +30,9 @@ assignees: HDuy-Dev
       label: Acceptance Criteria Checklist
       description: The standard criteria that a feature must satisfy to be accepted
       options:
+        - label: Read the [contribution guide](https://github.com/techmely/essential-packages/blob/main/docs/contribution.md)
+        - label: Check existing [discussions](https://github.com/techmely/essential-packages/discussions) and [issues](https://github.com/techmely/essential-packages/issues).
+          required: true
         - label: The scope of the feature is clear and small enough to be implemented in a single MR - Not exceeding 500 lines of code and 40 files changed.
           required: true
         - label: The time doing this feature does not exceed 1 day.
